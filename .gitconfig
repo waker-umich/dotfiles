@@ -18,3 +18,5 @@
 	last = log -1 HEAD
 	rs = restore
 	unstage = restore --staged
+[core]
+	pager = cat
