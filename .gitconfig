@@ -1,0 +1,20 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Jiawei He
+	email = jiaweihe@umich.edu
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[alias]
+	co = checkout
+	br = branch
+	cm = commit
+	st = status
+	last = log -1 HEAD
+	rs = restore
+	unstage = restore --staged

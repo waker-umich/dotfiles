@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+brew bundle
+cd clvv-fasd-4822024
+PREFIX=$HOME make install
+cd ..
+chsh -s $(which zsh)

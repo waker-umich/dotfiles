@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh 
+ln -sFf "$HOME/.dotfiles/.vimrc" "$HOME/.vimrc"
+ln -sFf "$HOME/.dotfiles/.zshrc" "$HOME/.zshrc"
+ln -sFf "$HOME/.dotfiles/.bash_profile" "$HOME/.bash_profile"
+ln -sFf "$HOME/.dotfiles/.oh-my-zsh" "$HOME/.oh-my-zsh"
+ln -sFf "$HOME/.dotfiles/.cheat_sheet" "$HOME/.cheat_sheet"
+ln -sFf "$HOME/.dotfiles/.tmux.conf" "$HOME/.tmux.conf"
