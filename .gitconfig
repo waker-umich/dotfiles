@@ -20,3 +20,4 @@
 	unstage = restore --staged
 [core]
 	pager = cat
+	editor = vim
