@@ -95,3 +95,9 @@ set softtabstop=4
 
 " enable copy and past externally
 set clipboard=unnamed
+
+" Mimic Emacs Line Editing in Insert Mode Only
+inoremap <C-A> <Home>
+inoremap <C-B> <Left>
+inoremap <C-E> <End>
+inoremap <C-F> <Right>
